@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { AppBar, Avatar, Button, Toolbar, Typography} from '@material-ui/core';
-import memories from '../../images/memories.png'
+import memories from '../../../public/memories.png'
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import decode from 'jwt-decode'
